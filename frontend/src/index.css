@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-page {
+  text-align: center;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
