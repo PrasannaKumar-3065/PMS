@@ -1,0 +1,3 @@
+pip install django channels channels-redis djangorestframework
+pip install daphne
+pip install django channels mysqlclient

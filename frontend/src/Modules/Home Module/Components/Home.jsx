@@ -22,7 +22,7 @@ const Home = () => {
     }
 
     return (
-        <><h1>Hello {username}</h1><Button onClick={()=>{Navigate('/Home/Custom')}}>Custom</Button></>
+        <><h1>Hello {username}</h1><Button onClick={()=>{Navigate('/Home/Custom')}}>Custom</Button><Button onClick={()=>{Navigate('/Home/Chat')}}>Chat</Button></>
     );
 }
 

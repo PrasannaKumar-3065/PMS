@@ -1,0 +1,12 @@
+.app-container {
+    transition: margin-left 0.3s;
+  }
+  
+  .app-container.offcanvas-open .main-content {
+    margin-left: 250px; /* Adjust to match the width of the offcanvas */
+  }
+  
+  .custom-offcanvas .offcanvas {
+    width: 250px; /* Adjust the width as needed */
+  }
+  
