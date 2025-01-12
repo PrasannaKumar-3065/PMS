@@ -100,7 +100,7 @@ REST_FRAMEWORK = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ChatUsers',
+        'NAME': 'PMS',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': 'localhost',

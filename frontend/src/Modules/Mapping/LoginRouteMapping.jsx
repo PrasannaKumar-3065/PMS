@@ -8,13 +8,14 @@ import ChatRoom from '../Chat Module/Components/ChatRoom'
 const LoginRouteMapping = () =>{
     return(
         <>
-            <NavbarLayout/>
+            <NavbarLayout>
             <Routes>
                 <Route path='/' Component={Home} />
                 <Route path="/AllOpen" Component={AllOpen} />
                 <Route path='/Custom' Component={CustomIndex} />
                 <Route path='/Chat' Component={ChatRoom} />
             </Routes>
+            </NavbarLayout>
         </>
     )
 }

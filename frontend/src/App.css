@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* #root{
+  width: 100%;
+  height: 70%;
+} */
+
+.form-control{
+  font-size: 12px !important;
+}

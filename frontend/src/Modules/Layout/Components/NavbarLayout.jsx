@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Container, Nav, NavDropdown, Offcanvas } from 'react-bootstrap';
 import { FaTasks, FaFilter, FaLaptop, FaDollarSign, FaKey, FaSearch } from 'react-icons/fa'; // import icons from react-icons
 import { Link } from 'react-router-dom';
-function NavbarLayout() {
+function NavbarLayout(props) {
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
 
   const handleOffcanvasToggle = () => {
@@ -49,7 +49,7 @@ function NavbarLayout() {
         </Container>
       </Navbar>
       <main className="main-content">
-        {/* Your main content here */}
+        {props.children}
       </main>
     </div>
   );
